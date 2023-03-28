@@ -11,9 +11,7 @@ domainListEl.addEventListener("change", (event) => {
   }
 });
 
-
-
- //생년월일 함수
+//생년월일 함수
 // const birthYearEl = document.querySelector("#birth-year");
 // isYearOptionExisted = false;
 // birthYearEl.addEventListener("focus", function () {
@@ -55,6 +53,9 @@ domainListEl.addEventListener("change", (event) => {
 // });
 
 function join() {
+  const emailRegex = new RegExp("([\\w-\\.]+)@((?:[\\w]+\\.)+)([a-zA-Z]{2,4})");
+  const passwordRegex = new RegExp("^(?=.*[0-9])(?=.*[a-zA-z]).{6,20}$");
+
   let form = document.getElementById("join_form");
   let data = {
     user_email: form.emailID.value + form.emailDomain.value,
@@ -69,24 +70,28 @@ function join() {
     !data.user_name ||
     !data.user_confirm_pw ||
     data.user_pw !== data.user_confirm_pw ||
-    data.user_pw.length < 6 || data.user_confirm_pw.length < 6
+    //data.user_pw.length < 6 || data.user_confirm_pw.length < 6
+    !emailRegex.test(data.user_email) ||
+    !passwordRegex.test(data.user_pw, data.user_confirm_pw)
   ) {
-    alert("다시 한번 확인해주세요. 비밀번호는 6자리 이상으로 입력해주세요.");
-  }   else {
+    alert(
+      "다시 한번 확인해주세요. 비밀번호는 영문, 숫자 조합으로 6 ~ 20자리로 입력해 주세요."
+    );
+  } else {
     axios({
       method: "post",
       url: "/zerowave/join",
       data: data,
     }).then((res) => {
-        if (res.data.check == true) {
-          alert(res.data.msg)
-        } else { 
-          alert(res.data.msg);
-          location.href="/zerowave";
-        }
-      });
-    };
-};
+      if (res.data.check == true) {
+        alert(res.data.msg);
+      } else {
+        alert(res.data.msg);
+        location.href = "/zerowave";
+      }
+    });
+  }
+}
 
 //비밀번호 입력창에 값을 입력하면, 비밀번호 값과 비밀번호 확인값이 일치하지 않으면 불일치 메시지를 표시하는 함수
 let elInputPassword = document.querySelector("#user_pw1");
