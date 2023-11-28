@@ -23,14 +23,14 @@ ZEROWAVE는 우리의 지구를 건강하게 지켜나가기위해, 언제 어�
 <h1> ✍️ Stack </h1>
 <h4> 🌊 Front-end 🌊 </h4>
 <div>
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=TypeScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=TypeScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=HTML&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
 </div>
 <h4> 🌊 Back-end 🌊 </h4>
 <div>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=TypeScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=TypeScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=Sequelize&logoColor=white"/>
 </div>
 <h4> 🌊 Collaboration 🌊 </h4>
 <div>
