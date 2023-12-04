@@ -1,4 +1,5 @@
-<img width="1411" alt="zerowave1" src="https://user-images.githubusercontent.com/116782324/226173433-35e251fc-8730-4ca1-88fa-b926046b994f.png"><img width="1425" alt="zerowave2" src="https://user-images.githubusercontent.com/116782324/226173390-b4533e67-59bc-41a1-a436-d2d92810a4c3.png">
+<img width="1411" alt="zerowave1" src="https://user-images.githubusercontent.com/116782324/226173433-35e251fc-8730-4ca1-88fa-b926046b994f.png">
+<img width="1425" alt="zerowave2" src="https://user-images.githubusercontent.com/116782324/226173390-b4533e67-59bc-41a1-a436-d2d92810a4c3.png">
 
 <h1> Zerowave </h1>
 🗓️ 진행 기간 : 2022.12.10 ~ 2022.12.29 <br />
@@ -19,6 +20,17 @@ ZEROWAVE는 우리의 지구를 건강하게 지켜나가기위해, 언제 어�
 
 <h3> 🤍 배포 사이트 🤍 </h3>
 <a href="http://13.124.235.1:8080/zerowave"> zerowave </a>
+<h1></h1>
+
+<h3> 🙋‍♂️담당 기능 </h3>
+
+- 로그인, 회원가입 구현
+<img src="https://github.com/raelulu/NewKiosk/assets/115077413/abe69582-a452-4893-81c5-0b051d24b212" width="1411" height="500" />
+
+- 임시 비밀번호 발송기능 구현  
+<img src="https://github.com/raelulu/NewKiosk/assets/115077413/fc9f0293-7e35-4c5e-8b5f-dead2130354d" width="1411" height="500"/>
+
+
 
 <h1> ✍️ Stack </h1>
 <h4> 🌊 Front-end 🌊 </h4>
