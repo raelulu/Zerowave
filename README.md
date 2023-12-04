@@ -25,10 +25,10 @@ ZEROWAVE는 우리의 지구를 건강하게 지켜나가기위해, 언제 어�
 <h3> 🙋‍♂️담당 기능 </h3>
 
 - 로그인, 회원가입 구현
-<img src="https://github.com/raelulu/NewKiosk/assets/115077413/1c5b05ae-7219-4927-a8d7-f640768b0f49" width="800" height="330" />
+<img src="https://github.com/raelulu/NewKiosk/assets/115077413/1c5b05ae-7219-4927-a8d7-f640768b0f49" width="740" height="280" />
 
 - 임시 비밀번호 발송기능 구현  
-<img src="https://github.com/raelulu/NewKiosk/assets/115077413/1947e5f7-5699-4693-b671-ee542e84c2f8" width="800" height="330"/>
+<img src="https://github.com/raelulu/NewKiosk/assets/115077413/1947e5f7-5699-4693-b671-ee542e84c2f8" width="740" height="280"/>
 
 
 
