@@ -49,6 +49,9 @@ ZEROWAVE는 우리의 지구를 건강하게 지켜나가기위해, 언제 어�
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
 <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
 <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=Slack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
+
+
  
 </div>
 <h4> 🌊 API 🌊  </h4>
